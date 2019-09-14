@@ -32,14 +32,15 @@ public class EstructurasSelectivas {
 
         lectura = scanner.nextLine(); //Se lee como String.
         opcion = Integer.parseInt(lectura);  //Hacemos un parsing a lectura para covertir la cadena en un entero.
+        scanner.close();
 
         switch (opcion) {
             case 1:
-                System.out.println("Opcion 3");
+                System.out.println("Opcion 1");
             break;
         
             case 2:
-                System.out.println("Opcion 3");
+                System.out.println("Opcion 2");
             break;
 
             case 3:
