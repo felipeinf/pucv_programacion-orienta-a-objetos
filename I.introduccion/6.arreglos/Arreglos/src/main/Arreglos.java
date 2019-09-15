@@ -19,7 +19,7 @@ public class Arreglos {
         diasSemana[1] = "MARTES";
         diasSemana[2] = "MIERCOLES";
         diasSemana[3] = "JUEVES";
-        
+        diasSemana[4] = "VIERNES";
         diasSemana[5] = "SABADO";
         diasSemana[6] = "DOMINGO";
         

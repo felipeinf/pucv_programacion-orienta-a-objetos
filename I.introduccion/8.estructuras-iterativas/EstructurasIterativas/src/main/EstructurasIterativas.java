@@ -84,7 +84,7 @@ public class EstructurasIterativas {
 
     //[BONUS] ForEach 
     
-     /* Estructura iterativa ForOf
+     /* Estructura iterativa ForEch
         ForEach es un metodo iterativo perteneciente a la clase ArrayList, itera hasta recorrer por completo la coleccion,
         utilizamos una funcion lambda para especifar las instrucciones que se ejecutaran en cada iteracion.
      */

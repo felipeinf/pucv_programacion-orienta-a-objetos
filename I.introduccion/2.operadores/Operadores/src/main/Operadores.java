@@ -11,10 +11,9 @@ public class Operadores {
 
     //Operadores aritmeticos
         System.out.print(a * 3); //Operador de multiplicacion: *                | Output: 27
-        System.out.print(a / 3); //Operador de multiplicacion: *                | Output: 3
+        System.out.print(a / 3); //Operador de divicion: /                      | Output: 3
         System.out.print(a + 3); //Operador de suma: +                          | Output: 12
-        System.out.print(a - 3); //Operador de resta: -                         | Output: 12
-        System.out.print(a / 3); //Operador de multiplicacion: *                | Output: 3
+        System.out.print(a - 3); //Operador de resta: -                         | Output: 6
         System.out.print(a % 2); //Operador de modulo (residuo de division): %  | Output: 1
 
     //Operadores de incremento(++) y decremento(--)

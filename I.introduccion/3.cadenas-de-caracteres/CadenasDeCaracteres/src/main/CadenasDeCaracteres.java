@@ -20,6 +20,6 @@ public class CadenasDeCaracteres {
         cadena2 = cadena2.toUpperCase(); //Una cadena se puede convertir en Minuscula.
 
         cadena3 = "Hola";
-        System.out.println("El largo de una cadena 3 es :" + cadena3.length()); //Output: 4
+        System.out.println("El largo de cadena 3 es :" + cadena3.length()); //Output: 4
     }
 }

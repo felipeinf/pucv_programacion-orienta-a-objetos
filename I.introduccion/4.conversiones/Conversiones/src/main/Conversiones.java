@@ -23,10 +23,16 @@ public class Conversiones {
         caracter = '1';      
 
         caracterEntero = caracter;  //De char a int, se efectua casting automatico.
-        flotanteDoble2 =  entero2;  //De entero a double, se efectua casting automatico.
+        flotanteDoble2 =  entero2;  //De int a double, se efectua casting automatico.
  
     // Parsing 
-        int entero3 = Integer.parseInt("245"); 
-        double flotante2 = Double.parseFloat("3.56");
+        int entero3;
+        double flotanteDoble3;
+        String cadena;
+
+        cadena = "255";
+        
+        entero3 = Integer.parseInt(cadena);  //Hacemos un parsing de String a int
+        flotanteDoble3 = Double.parseFloat("3.56");  //Hacemos un parging de String literal a float
     }
 }
