@@ -16,7 +16,7 @@ public class CadenasDeCaracteres {
         System.out.println(cadena1 + " y " + cadena2); //Al imprimir, se pueden concatenar dos o mas cadenas utilizando el operador + .
         System.out.println("Cadena 1 es igual a cadena 2: " + (cadena1.equals(cadena2))); //cadena1.equals(cadena2) retorna true en caso de ser iguales y false en caso contrario.
         
-        cadena1 = cadena2.toLowerCase(); //Una cadena se puede convertir en Mayuscula.
+        cadena1 = cadena1.toLowerCase(); //Una cadena se puede convertir en Mayuscula.
         cadena2 = cadena2.toUpperCase(); //Una cadena se puede convertir en Minuscula.
 
         cadena3 = "Hola";
