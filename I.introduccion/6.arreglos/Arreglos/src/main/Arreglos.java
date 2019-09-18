@@ -9,11 +9,7 @@ import java.util.ArrayList;
 public class Arreglos {
     public static void main(String[] args) {
         //Areglos
-        String[] diasSemana = new String [7]; //Esta es otra forma de declarar un arreglo, se utiliza la palabra reservada new para especificar el tamaño de este.
-        int[] arregloEnteros = { 1, 3 , 5, 7, 9 }; //Esta es una forma de declarar un arreglo e inicializarlo.
-
-        arregloEnteros[2] = 420; //Se puede acceder a una posicion del arreglo de la misma forma que en lenguaje C.
-        System.out.println(arregloEnteros[2]); //Output: 420
+        String[] diasSemana = new String [7]; //Esta es una forma de declarar un arreglo, se utiliza la palabra reservada new para especificar el tamaño de este.
 
         diasSemana[0] = "LUNES";
         diasSemana[1] = "MARTES";
@@ -23,6 +19,11 @@ public class Arreglos {
         diasSemana[5] = "SABADO";
         diasSemana[6] = "DOMINGO";
         
+        int[] arregloEnteros = { 1, 3 , 5, 7, 9 }; //Esta es otra una forma de declarar un arreglo e inicializarlo.
+
+        arregloEnteros[2] = 420; //Se puede acceder a una posicion del arreglo de la misma forma que en lenguaje C.
+        System.out.println("arregloEnteros[2] = " + arregloEnteros[2]); //Output: 420
+ 
         // Colecciones
         int capacidad;
 
@@ -34,7 +35,7 @@ public class Arreglos {
         integerArrayList.add(4);
         integerArrayList.add(2);
 
-        System.out.println(integerArrayList); //Output: [6, 3, 9, 4, 2]
+        System.out.println("Integer ArrayList: " + integerArrayList); //Output: [6, 3, 9, 4, 2]
 
         /* Para utilizar el metodo sort() de la clase ArrayList, al igual que lo haciamos con qsort() en lenguaje C,
             debemos traspasar una funcion de comparacion para que se efectue el orden. En este caso utilizaremos una
