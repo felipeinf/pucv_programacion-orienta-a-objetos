@@ -7,17 +7,14 @@ import java.util.ArrayList;
  */
 
 public class EstructurasIterativas {
-
     public static void main(String[] args) {
-        int[] listaEnteros = {4, 5, 1, 3, 9, 2};
-        boolean[] listaBoleanos = {false, true, false};
-        int j;
-
     // For
      /* Estructura iterativa For
         Se utiliza cuando se conoce el numero de veces que se desea iterar un
         bloque de instrucciones.
      */ 
+        int[] listaEnteros = {4, 5, 1, 3, 9, 2};
+
         System.out.println("For:");
 
         for(int i = 1;  i < listaEnteros.length; i++) {
@@ -29,9 +26,12 @@ public class EstructurasIterativas {
         Se utiliza cuando se desconoce el numero de iteraciones y se desea
         validar la condicion antes de ejecutar las instrucciones.
      */
-        System.out.println("\nWhile:");
+        boolean[] listaBoleanos = {false, true, false};
+        int j;
 
         j = 0;
+        System.out.println("\nWhile:");
+
         while(listaBoleanos[j] != false){
             System.out.println( listaBoleanos[j]);
             j++;
