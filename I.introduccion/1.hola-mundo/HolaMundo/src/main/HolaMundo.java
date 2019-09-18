@@ -1,4 +1,5 @@
 package main; //Esto indica el directorio que contiene el archivo .java.
+//package tiene mayor utilidad cuando tenemos multiples archivos .java en diferentes directorios.
 
 /**
  * @author Felipe Concha Almeida
