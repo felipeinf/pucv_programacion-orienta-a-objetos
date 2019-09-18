@@ -10,26 +10,32 @@ public class EstructurasSelectivas {
 
     public static void main(String[] args) {
         int numero;
-
-        numero = 12;
-
+        Scanner scanner;
+        String lectura;
+        
+        scanner = new Scanner(System.in); //Se instancia el objeto scanner el cual utilizaremos para leer desde el input(System.in).
+        
+        System.out.println("Ingrese un numero entero: ");
+        lectura = scanner.nextLine();
+        numero = Integer.parseInt(lectura);
+                
     // If else
         if(numero % 4 == 0){
             System.out.println("El numero " + numero + " es multiplo de 4.");
-        }
-        else {
+            
             if(numero % 3 == 0){
                 System.out.println("El numero " + numero + " es multiplo de 4 y de 3. ");
             }
         }
+        else {
+            System.out.println("El numero " + numero + " no es multiplo de 4.");
+        }
+          
 
     // Switch
-        Scanner scanner;
-        String lectura;
         int opcion; 
 
-        scanner = new Scanner(System.in); //Se instancia el objeto scanner el cual utilizaremos para leer desde el input(System.in).
-
+        System.out.print("\nIngrese la opcion 1, 2 o 3: ");
         lectura = scanner.nextLine(); //Se lee como String.
         opcion = Integer.parseInt(lectura);  //Hacemos un parsing a lectura para covertir la cadena en un entero.
         scanner.close();
