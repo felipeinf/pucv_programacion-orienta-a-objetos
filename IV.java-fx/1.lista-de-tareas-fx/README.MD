@@ -2,7 +2,7 @@
 
 ## Deployment 📦
 
-_Para desplegar proyecto el arrastre la carpeta HolaMundoExtendido a Netbeans._
+_Para desplegar proyecto el arrastre la carpeta ListaDeTareasFx a Netbeans._
 
 ## Construido con 🛠️
 
